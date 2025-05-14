@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>mtech.prokect</groupId>
-    <artifactId>cboj-restClient-library</artifactId>
+    <groupId>com.github.muradShahin</groupId>
+    <artifactId>http-client-lib-mvn</artifactId>
     <version>0.0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>cboj-restClient-library</name>
+    <name>http-client-lib-mvn</name>
     <description>A reusable HTTP RestTemplate client for Spring Boot apps</description>
 
     <properties>
@@ -52,4 +52,13 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Maven Packages</name>
+            <url>https://maven.pkg.github.com/muradShahin/http-client-lib-mvn</url>
+        </repository>
+    </distributionManagement>
+
 </project>
